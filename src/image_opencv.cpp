@@ -15,19 +15,18 @@ import cv2
 #include <algorithm>
 #include <atomic>
 
-#include <opencv2/core/version.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgproc.hpp>
 #include <opencv2/opencv.hpp>
-#include <opencv2/opencv_modules.hpp>
+#include <opencv2/core/opencv_version.hpp>
 
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/video/video.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/video.hpp>
 
 // includes for OpenCV >= 3.x
 #ifndef CV_VERSION_EPOCH
 #include <opencv2/core/types.hpp>
-#include <opencv2/videoio/videoio.hpp>
-#include <opencv2/imgcodecs/imgcodecs.hpp>
+#include <opencv2/videoio.hpp>
+#include <opencv2/imgcodecs.hpp>
 #endif
 
 // OpenCV includes for OpenCV 2.x
@@ -35,7 +34,7 @@ import cv2
 #include <opencv2/highgui/highgui_c.h>
 #include <opencv2/imgproc/imgproc_c.h>
 #include <opencv2/core/types_c.h>
-#include <opencv2/core/version.hpp>
+#include <opencv2/core/opencv_version.hpp>
 #endif
 
 //using namespace cv;

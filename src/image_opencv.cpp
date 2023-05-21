@@ -1,3 +1,5 @@
+import cv2
+
 #include "image_opencv.h"
 #include <iostream>
 
